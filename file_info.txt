@@ -1,0 +1,4 @@
+Explanation:
+stat -c options are used to fetch file properties like size (%s), permissions (%A), owner (%U), group (%G), and last modified date (%y).
+The printf command formats the output in a tabular form for easy readability.
+The for file in * loop iterates over each file in the current directory, and if [ -f "$file" ] ensures that only regular files (not directories or special files) are processed.

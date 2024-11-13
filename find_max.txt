@@ -1,0 +1,6 @@
+Explanation:
+The script checks if at least one argument is provided.
+It initializes max with the first argument.
+It loops through each provided argument to check if it's an integer using a regular expression.
+The script then compares each number with the current maximum and updates the max variable if the current number is larger.
+Finally, it prints the largest number found.

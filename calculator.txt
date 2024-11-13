@@ -1,0 +1,5 @@
+Explanation:
+The script checks if exactly three arguments are provided.
+It then assigns the arguments to num1, operator, and num2.
+Based on the operator (+, -, x, /), it performs the appropriate arithmetic operation using the bc utility for basic calculations.
+Division is handled with a check to prevent division by zero.

@@ -1,0 +1,5 @@
+Explanation:
+The script first checks if exactly one argument is provided.
+It verifies that the input is a valid integer (supports negative numbers).
+It uses the rev command to reverse the digits.
+For negative numbers, it handles the negative sign separately by stripping it from the reversed string and reappending it at the front.
